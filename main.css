@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-image: url(./images/fundo-body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1080px;
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 960px;
+    margin: 120px auto 0 auto;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.50));
+}
+
+/* Estilizando Cabeçalho */
+
+header {
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #959495;
+    background: linear-gradient(180deg, #E5E3E5 0%, #CFCDCF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header button {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+}
+
+#title-header {
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #545354;
+}
+
+header img {
+    height: 36px;
+}
+
+/* Estilizando Formuláio */
+
+section {
+    background-color: #ECECEC;
+    padding: 34px 34px 44px 34px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+form {
+    background-color: #E2E2E2;
+    padding: 39px;
+    border-radius: 10px;
+}
+
+form h2 {
+    color: #020403;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+form input, form select {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    background-color: #D9D9D9;
+    margin-bottom: 15px;
+}
+
+form input::placeholder {
+    color: #545354;
+}
+
+.dados-contato-1, .dados-contato-2, .dados-endereco {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dados-contato-1 input, .dados-contato-2 input {
+    width: 398px;
+}
+
+.dados-contato-2 {
+    margin-bottom: 10px;
+}
+
+#endereco {
+    width: 100%;
+}
+
+#complemento, #cep {
+    width: 525px;
+}
+
+#bairro, #pais {
+    width: 268px;
+}
+
+#cidade, #estado {
+    width: 398px;
+}
+
+#pais {
+    background-color: #c4c3c3;
+}
+
+#pais::placeholder {
+    color: #f0f0f0;
+}
+
+form button {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 36px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.44px;
+    cursor: pointer;
+}
+
+#enviar {
+    border-radius: 5px 0px 0px 5px;
+    border-bottom: 1px solid #397ACC;
+    border-left: 1px solid #397ACC;
+    background: linear-gradient(180deg, #68AEF9 0%, #127CF2 100%);
+    color: #DAFFFF;
+}
+
+#limpar {
+    border-radius: 0px 5px 5px 0px;
+    border-right: 1px solid #B2B2B2;
+    border-bottom: 1px solid #B2B2B2;
+    background: linear-gradient(180deg, #FDFDFD 0%, #FFF 100%);
+    color: #020403;
+}
+
+.button-form {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto -40px;
+    margin-bottom: -55px;
+}
